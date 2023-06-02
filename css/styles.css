@@ -512,8 +512,6 @@ progress {
   font-weight: 300;
 }
 
-
-
 .header-title{
   line-height: 1.5;
 }
@@ -3833,6 +3831,11 @@ textarea.form-control-lg {
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
+}
+
+.img-brand{
+  width: 5rem;
+  height: auto;
 }
 
 .navbar-nav {
@@ -11103,7 +11106,7 @@ html {
 
 .wa-button{
   position: fixed;
-  bottom: 7%;
+  bottom: 3%;
   left: 92%;
   z-index: 99;
   border: none;
@@ -11114,4 +11117,19 @@ html {
 .wa-icon{
   width: 90px;
   height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 100%;
+  }
+
+  .wa-button{
+    left: 75%;
+  }
+
+  .lead{
+    text-align: justify;
+    margin-top: 20px;
+  }
 }
